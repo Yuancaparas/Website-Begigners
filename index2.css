@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'open sans';
+
+position: relative;
+
+top: 10px;
+bottom: auto;
+    
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(27deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 36%, rgba(3,165,218,1) 82%, rgba(2,175,226,1) 86%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 2300px 1000px;
+}
+
+div.study
+{
+    font-size: 30px;
+    color: #fdff71;
+    font-family: 'Arial bold';
+
+   font-family: 'open sans';
+
+position: absolute;
+
+top: 30px;
+left: 30px;
+}
+div.video{
+    font-size: 30px;
+    color: #fdff71;
+    font-family: 'open sans';
+
+    position: absolute;
+    
+    top: 200px;
+    left: 30px;
+
+}
+div.position2{
+    position: absolute;
+ top: 250px;
+
+ 
+}
+div.designing{
+    font-size: 30px;
+    color: #fdff71;
+    font-family: 'open sans';
+
+    position: absolute;
+    
+    top: 340px;
+    left: 30px;
+
+}
+div.position3{
+    position: absolute;
+ top: 390px;
+}
+
+div.Csstools {
+    font-size: 30px;
+    color: #fdff71;
+    font-family: 'open sans';
+
+    position: absolute;
+    
+    top: 480px;
+    left: 30px;
+
+}
+
+div.position4{
+    position: absolute;
+ top: 530px;
+}
+
+main.buttons {
+    width: 100%;
+    height: 100vh;
+ display: flex; 
+ align-items: left;
+ justify-content: left;
+
+ position: absolute;
+ top: 65px;
+ left: 20px;
+}
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    background-color: #05acee;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #1e0535;
+    margin: 0 10px;
+    
+
+  }
+  
+  button:hover {
+    background-color: #3a078d8c
+
+}
+    
+
+  
+  button:active {
+    background-color: #1a0466;
+    box-shadow: 0 10px #0b004481;
+    transform: translateY(4px);
+    transition: 2ms;
+  }
+
+div.container
+{
+    position: absolute;
+    width: 1770px;
+    height: 800px;
+left: 60px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 9px #1e053575;
+    border-radius: 15px;
+ 
+}
